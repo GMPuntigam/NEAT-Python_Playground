@@ -1,0 +1,15 @@
+[package]
+name = "py_rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "py_rust"
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.146"
+set_genome = "0.6.5"
+serde_json = "1.0.96"
+favannat = "0.6.2"
